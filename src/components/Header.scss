@@ -1,0 +1,24 @@
+.header {
+    &__logo img {
+    width: 20%;
+    height: auto;
+  }
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  &__elements {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    li {
+      &:hover {
+        color: blue;
+      }
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}
