@@ -12,7 +12,7 @@ export default function LandingPage() {
         <h1 className="landing-page__text--text">on the go.</h1>
         <button className="landing-page__text--button">
           <p className="landing-page__text--button__text">Generate Now</p>
-          <img className="animate-pulse" src={arrow} alt="arrow" />
+          {/* <img className="animate-pulse" src={arrow} alt="arrow" /> */}
         </button>
       </div>
     </div>
