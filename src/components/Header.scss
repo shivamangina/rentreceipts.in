@@ -1,5 +1,5 @@
 .header {
-    &__logo img {
+  &__logo img {
     width: 20%;
     height: auto;
   }
@@ -15,7 +15,8 @@
     align-items: center;
     li {
       &:hover {
-        color: blue;
+        color: #01baef;
+        cursor: pointer;
       }
       margin-left: 1rem;
       margin-right: 1rem;
